@@ -1,10 +1,11 @@
 *{
-margin: 0;
-padding: 0;
+margin:0;
+padding:0;
 box-sizing: border-box;
 /* border: 1px solid red; */
 
 }
+
 .main-cont{
 width: 100%;
 height: 95vh;
@@ -494,6 +495,11 @@ margin-top: 20px;
 /* responsive css */
 
 @media (max-width:480px) {
+    *{
+        padding: 0;
+        margin: 0;
+        box-sizing: border-box;
+    }
    .main-cont{
     width: 100%;
     height: auto;
